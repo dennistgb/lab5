@@ -5,7 +5,10 @@ from hal import hal_adc as adc
 def main():
     servo.init()
     adc.init()
-    adjust()
+    while(1):
+        servo.set_servo_position(180)
+        servo.set_servo_position(0)
+
     
 
 def adjust():

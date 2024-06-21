@@ -2,7 +2,6 @@ from threading import Thread
 from hal import hal_keypad as keypad
 from hal import hal_lcd as LCD
 import led_control as LED
-
 #Empty list to store sequence of keypad presses
 password = []
 
